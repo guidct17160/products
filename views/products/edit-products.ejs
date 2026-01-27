@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Product</title>
+</head>
+
+<body>
+    <h1>Edit <%= product.name %>
+    </h1>
+    <form action="/products/<%= product._id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="name">Product name:</label>
+            <input type="text" name="name" value="<%= product.name %>" required>
+        </div>
+        <div>
+            <label for="price">Price :</label>
+            <input type="number" name="price" value="<%= product.price %>" required>
+        </div>
+        <div>
+            <label for="productImage">Upload New Image :</label>
+            <input type="file" name="productImage" >
+        </div>
+        <h3>Image</h3>
+        <% if(product.imageUrl){%>
+            <img src="/<%= product.imageUrl %>" alt="<%= product.name %>" width="300px">
+        <% } else { %>
+            <p>No image available</p>
+        <% }  %>
+
+        <button type="submit">Update Product</button>
+    </form>
+</body>
+
+</html>
