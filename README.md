@@ -72,7 +72,7 @@ set package ตรง scripts dev ให้เป็น nodemon app.js และ
 API
 โดยเราจะใช้ Postman เป็น Tools สำหรับ ทดสอบ API 
 -----------------------------------------------------------------------------
-<h1>GET หรือ แสดงข้อมูล<h1>
+GET หรือ แสดงข้อมูล<h1>
 เราจะใช้ PORT = http://localhost:3000/api/products/
 ถ้า status code 200 ถือว่า Successfull/OK
 <img width="1384" height="931" alt="image" src="https://github.com/user-attachments/assets/03400006-ecc0-4ec7-931b-e9bb42e18fd9" />
