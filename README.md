@@ -31,25 +31,9 @@
 ---
 
 📂 Project Structure
-├─ app.js
-├─ package.json
-├─ package-lock.json
-├─ routes/
-│ └─ products.js
-├─ models/
-│ └─ Product.js
-├─ middleware/
-│ └─ upload.js
-├─ views/
-│ └─ products/
-│ ├─ index.ejs
-│ ├─ new-products.ejs
-│ ├─ edit-product.ejs
-│ └─ show-detail.ejs
-├─ uploads/ (ไม่อัปโหลดขึ้น GitHub)
-├─ .env (ไม่อัปโหลดขึ้น GitHub)
-├─ .gitignore
-└─ README.md
+<img width="398" height="736" alt="image" src="https://github.com/user-attachments/assets/17264890-8e58-47e6-bed5-8eec8e16ba0a" /><br>
+จะประมานนี้ แต่จะมี ตัว .env เพิ่มเข้ามา และ ตัว node_modules กับ โฟล์เดอร์ uploads เพิ่มนำมาเก็บรูปภาพ 
+
 
 ----------------------------------------------------------------------------------
 ขั้นตอนใช้งาน
@@ -61,4 +45,7 @@ npm i express multer dotenv method-override moongoose
 ----------------------------------------------------------------------------------
 <img width="607" height="124" alt="image" src="https://github.com/user-attachments/assets/17ca5d8f-9401-46f7-b10a-f13670c5b606" /><br>
 set package ตรง scripts dev ให้เป็น nodemon app.js และตอนรันใช้ คำสั่ง npm run dev
+----------------------------------------------------------------------------------
+สร้างไฟล์ .env และ setting ค่า MONGO_URI โดยจะเอามาจาก<br>
+<img width="980" height="180" alt="image" src="https://github.com/user-attachments/assets/81e7dbc3-9c6b-4da4-b330-b014fe2be6ec" /><br>
 ----------------------------------------------------------------------------------
