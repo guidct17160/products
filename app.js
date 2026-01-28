@@ -4,7 +4,7 @@ const path = require('path')
 const port = 3000
 
 
-const userRoute = require('./route/users')
+
 const productsRoute = require('./route/products')
 const apiProductsRoute = require('./route/api/products')
 
@@ -31,7 +31,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(methodOverride('_method'))
 
-app.use('/users',userRoute)
+
 app.use('/products',productsRoute)
 app.use('/api/products',apiProductsRoute)
 
@@ -41,18 +41,6 @@ const loggerMiddleware = (req,res,next) =>{
     next()
 }
 app.use(loggerMiddleware)
-
-app.get('/',(req,res)=>{
-    res.render('index',{
-        title:'Hello',
-        header:'E Dok',
-        param:'HEE BOW',
-        user:null
-        
-
-    })
-
-})
 
 app.get('/products',(req,res)=>{
     const products = [
@@ -76,3 +64,4 @@ app.get('/products',(req,res)=>{
 app.listen(port,()=>{
     console.log('Server running')
 })
+
