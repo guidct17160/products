@@ -68,3 +68,25 @@ set package ตรง scripts dev ให้เป็น nodemon app.js และ
 <img width="1126" height="199" alt="image" src="https://github.com/user-attachments/assets/7380bb75-f828-4002-a7af-bed2096fa656" />
 คุณสามารถเพิ่มหรือเปลี่ยน file.mimetype === 'image/ไฟล์นามสกุลของคุณที่จะลง' 
 
+----------------------------------------------------------------------------------
+<h1>API<h1>
+โดยเราจะใช้ Postman เป็น Tools สำหรับ ทดสอบ API 
+-----------------------------------------------------------------------------
+<h1>GET หรือ แสดงข้อมูล<h1>
+เราจะใช้ PORT = http://localhost:3000/api/products/
+ถ้า status code 200 ถือว่า Successfull/OK
+<img width="1384" height="931" alt="image" src="https://github.com/user-attachments/assets/03400006-ecc0-4ec7-931b-e9bb42e18fd9" />
+----------------------------------------------------------------------------
+<h1>POST หรือ สร้าง/เพิ่ม<h1>
+  เราจะใช้ PORT = http://localhost:3000/api/products/
+  ถ้า status code 201 ถือว่า Create หรือ สร้างสำเร็จ
+<img width="1383" height="930" alt="image" src="https://github.com/user-attachments/assets/f405094a-83e1-4808-86de-83e3011f1e88" />
+----------------------------------------------------------------------------
+<h1>PUT/UPDATE การอัพเดท<h1>
+เราจะใช้ PORT = http://localhost:3000/api/products/id:
+ถ้า status code 200 ถือว่า Update สำเร็จ 
+<img width="1386" height="925" alt="image" src="https://github.com/user-attachments/assets/b42d891a-be07-4d48-814b-d5aa813292a8" />
+------
+
+
+
