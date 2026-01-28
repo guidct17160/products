@@ -72,21 +72,26 @@ set package ตรง scripts dev ให้เป็น nodemon app.js และ
 API
 โดยเราจะใช้ Postman เป็น Tools สำหรับ ทดสอบ API 
 -----------------------------------------------------------------------------
-GET หรือ แสดงข้อมูล<h1>
+GET หรือ แสดงข้อมูล
 เราจะใช้ PORT = http://localhost:3000/api/products/
 ถ้า status code 200 ถือว่า Successfull/OK
 <img width="1384" height="931" alt="image" src="https://github.com/user-attachments/assets/03400006-ecc0-4ec7-931b-e9bb42e18fd9" />
 ----------------------------------------------------------------------------
-<h1>POST หรือ สร้าง/เพิ่ม<h1>
+POST หรือ สร้าง/เพิ่ม
   เราจะใช้ PORT = http://localhost:3000/api/products/
   ถ้า status code 201 ถือว่า Create หรือ สร้างสำเร็จ
 <img width="1383" height="930" alt="image" src="https://github.com/user-attachments/assets/f405094a-83e1-4808-86de-83e3011f1e88" />
 ----------------------------------------------------------------------------
-<h1>PUT/UPDATE การอัพเดท<h1>
+PUT/UPDATE การอัพเดท
 เราจะใช้ PORT = http://localhost:3000/api/products/id:
 ถ้า status code 200 ถือว่า Update สำเร็จ 
 <img width="1386" height="925" alt="image" src="https://github.com/user-attachments/assets/b42d891a-be07-4d48-814b-d5aa813292a8" />
 ------
+DELETE การลบข้อมูล
+เราจะใช้ PORT = http://localhost:3000/api/products/id:
+ถ้า status code 200 ถือว่า Delete สำเร็จ 
+<img width="1379" height="922" alt="image" src="https://github.com/user-attachments/assets/5fe56db4-b3d4-4d7b-b8cf-d9629ef3fa0d" />
+---
 
 
 
