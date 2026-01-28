@@ -59,6 +59,6 @@ npm i nodemon --save-dev
 ----------------------------------------------------------------------------------
 npm i express multer dotenv method-override moongoose
 ----------------------------------------------------------------------------------
-<img width="607" height="124" alt="image" src="https://github.com/user-attachments/assets/17ca5d8f-9401-46f7-b10a-f13670c5b606" />
+<img width="607" height="124" alt="image" src="https://github.com/user-attachments/assets/17ca5d8f-9401-46f7-b10a-f13670c5b606" /><br>
 set package ตรง scripts dev ให้เป็น nodemon app.js และตอนรันใช้ คำสั่ง npm run dev
 ----------------------------------------------------------------------------------
